@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BrainLipSync
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: rBrain
+    m_Weight: 0
+  - m_Path: rBrain/Base
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/UpperLip
+    m_Weight: 1
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/UpperLip/UpperLip_end
+    m_Weight: 1
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/EyeBrow.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/EyeBrow.L/EyeBrow.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/EyeBrow.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/EyeBrow.R/EyeBrow.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Eye.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Eye.L/Eye.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Eye.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Eye.R/Eye.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Mouth
+    m_Weight: 1
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Mouth/Jaw
+    m_Weight: 1
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Mouth/Jaw/LowerLip
+    m_Weight: 1
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Mouth/Jaw/LowerLip/LowerLip_end
+    m_Weight: 1
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Glasses.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Glasses.L/Glasses.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Glasses.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Glasses.R/Glasses.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Mouth.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Mouth.L/Mouth.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Mouth.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Neck/Head/Mouth.R/Mouth.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Shoulder.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Shoulder.L/Elbow.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Shoulder.L/Elbow.L/Elbow.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Shoulder.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Shoulder.R/Elbow.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Stomach/Back/Shoulder.R/Elbow.R/Elbow.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.L/UpperLeg.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.L/UpperLeg.L/LowerLeg.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.L/UpperLeg.L/LowerLeg.L/Foot.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.L/UpperLeg.L/LowerLeg.L/Foot.L/Toe.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.L/UpperLeg.L/LowerLeg.L/Foot.L/Toe.L/Toe.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.R/UpperLeg.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.R/UpperLeg.R/LowerLeg.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.R/UpperLeg.R/LowerLeg.R/Foot.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.R/UpperLeg.R/LowerLeg.R/Foot.R/Toe.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Hip/Hip.R/UpperLeg.R/LowerLeg.R/Foot.R/Toe.R/Toe.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/Middle.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/Middle.L/Middle.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/Thumb.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/Thumb.L/Thumb.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/Pointer.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/Pointer.L/Pointer.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/Third.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/Third.L/Third.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/thumb1.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/thumb1.L/thumb2.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/thumb1.L/thumb2.L/thumb3.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/thumb1.L/thumb2.L/thumb3.L/thumb3.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/middle1.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/middle1.L/middle2.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/middle1.L/middle2.L/middle3.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/middle1.L/middle2.L/middle3.L/middle3.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/pointer1.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/pointer1.L/pointer2.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/pointer1.L/pointer2.L/pointer3.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/pointer1.L/pointer2.L/pointer3.L/pointer3.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/third1.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/third1.L/third2.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/third1.L/third2.L/third3.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/third1.L/third2.L/third3.L/third3.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/pickup.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Hand.L/pickup.L/pickup.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Sleeve.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.L/LowerArm.L/Sleeve.L/Sleeve.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/Middle.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/Middle.R/Middle.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/Thumb.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/Thumb.R/Thumb.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/Pointer.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/Pointer.R/Pointer.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/Third.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/Third.R/Third.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/thumb1.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/thumb1.R/thumb2.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/thumb1.R/thumb2.R/thumb3.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/thumb1.R/thumb2.R/thumb3.R/thumb3.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/middle1.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/middle1.R/middle2.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/middle1.R/middle2.R/middle3.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/middle1.R/middle2.R/middle3.R/middle3.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/pointer1.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/pointer1.R/pointer2.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/pointer1.R/pointer2.R/pointer3.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/pointer1.R/pointer2.R/pointer3.R/pointer3.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/third1.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/third1.R/third2.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/third1.R/third2.R/third3.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/third1.R/third2.R/third3.R/third3.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/pickup.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Hand.R/pickup.R/pickup.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Sleeve.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/UpperArm.R/LowerArm.R/Sleeve.R/Sleeve.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/IK-Hand.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/IK-Hand.R/IK-Hand.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/IK-Hand.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/IK-Hand.L/IK-Hand.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Knee.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Knee.L/Knee.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Knee.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Knee.R/Knee.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Foot-IK.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/Foot-IK.R/Foot-IK.R_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/Foot-IK.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/Foot-IK.L/Foot-IK.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/IK-Switch.L
+    m_Weight: 0
+  - m_Path: rBrain/Base/IK-Switch.L/IK-Switch.L_end
+    m_Weight: 0
+  - m_Path: rBrain/Base/IK-Switch.R
+    m_Weight: 0
+  - m_Path: rBrain/Base/IK-Switch.R/IK-Switch.R_end
+    m_Weight: 0
+  - m_Path: Brain
+    m_Weight: 0

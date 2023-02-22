@@ -1,0 +1,2144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e62d8d078be49cf8ad9ebe2efcaeb2, type: 3}
+  m_Name: Demo_SpeechManager
+  m_EditorClassIdentifier: 
+  scrollSubtitles: 1
+  scrollNarration: 0
+  textScrollSpeed: 50
+  textScrollCLip: {fileID: 0}
+  narrationTextScrollCLip: {fileID: 0}
+  playScrollAudioEveryCharacter: 0
+  speechScrollAudioSource: 0
+  waitTimeOffset: 0
+  displayForever: 0
+  displayNarrationForever: 0
+  playAnimationForever: 1
+  canSkipWithMouseClicks: 1
+  minimumDisplayTime: 1
+  screenTimeFactor: 0.1
+  allowSpeechSkipping: 0
+  allowGameplaySpeechSkipping: 0
+  skipThresholdTime: 0
+  endScrollBeforeSkip: 1
+  ifSkipWhileScrolling: 0
+  scrollingTextFactorsLength: 0
+  syncSubtitlesToAudio: 0
+  useAssetBundles: 0
+  searchAudioFiles: 1
+  autoNameSpeechFiles: 0
+  referenceSpeechFiles: 1
+  autoSpeechFolder: Speech
+  autoLipsyncFolder: Lipsync
+  forceSubtitles: 1
+  translateAudio: 0
+  separateVoiceAndTextLanguages: 0
+  fallbackAudio: 0
+  keepTextInBuffer: 0
+  relegateBackgroundSpeechAudio: 0
+  usePlayerRealName: 0
+  separateSharedPlayerAudio: 0
+  placeAudioInSubfolders: 0
+  separateLines: 0
+  separateLinePause: 0.1
+  resetExpressionsEachLine: 1
+  lines:
+  - isPlayer: 1
+    lineID: 2
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: How did you go from being a wrestler to shooting a promo for a game engine?
+    description: 
+    textType: 0
+    translationText:
+    - "Comment avez-vous d'\xEAtre un lutteur \xE0 tirer une promo pour un moteur
+      de jeu?"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 3
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Well, being a professional sportsman, I'm used to sellings things with
+      my natural charisma.
+    description: 
+    textType: 0
+    translationText:
+    - "Eh bien, \xE9tant un sportif professionnel, je suis habitu\xE9 \xE0 sellings
+      choses avec mon charisme naturel."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 7
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Plus, I live just across the street.
+    description: 
+    textType: 0
+    translationText:
+    - De plus, j'habite juste en face de la rue.
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 22
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: Let's .. call that one for the outtake reel.
+    description: 
+    textType: 0
+    translationText:
+    - "Disons .. appeler celui-l\xE0 pour la bobine Outtake."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 23
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: What can you tell me about Adventure Creator?
+    description: 
+    textType: 0
+    translationText:
+    - "Que pouvez-vous me dire \xE0 propos de Adventure Creator?"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 24
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Glad you asked, my robot chum!
+    description: 
+    textType: 0
+    translationText:
+    - Bonne question, mon ami robot!
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 28
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Adventure Creator is a Unity package that you can use to make your own
+      3D adventure games.  No scripting, loads of features - everything from saving
+      and loading to multiple play styles and translation support.
+    description: 
+    textType: 0
+    translationText:
+    - "Adventure Creator est un ensemble Unity que vous pouvez utiliser pour cr\xE9er
+      vos propres jeux d'aventure 3D. Pas de scripts, des charges de fonctionnalit\xE9s
+      - tout de sauvegarder et de charger \xE0 plusieurs styles de jeu et le soutien
+      de la traduction."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 29
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: That sounds great!  Tell me more!
+    description: 
+    textType: 0
+    translationText:
+    - Cela sonne bien! Dites-moi plus!
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 39
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: I would, but I forgot the rest of my lines.
+    description: 
+    textType: 0
+    translationText:
+    - "J'aimerais bien, mais j'ai oubli\xE9 le reste de mes lignes."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 30
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: I'd better not harm the talent - we haven't paid for insurance.
+    description: 
+    textType: 0
+    translationText:
+    - "Je ferais mieux de ne pas nuire aux talents - nous n'avons pas pay\xE9 l'assurance."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 31
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: I'd better go back to fixing the set.
+    description: 
+    textType: 0
+    translationText:
+    - "Je ferais mieux de retourner \xE0 la fixation de l'ensemble."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 32
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Take your time, I'm paid by the hour!
+    description: 
+    textType: 0
+    translationText:
+    - "Prenez votre temps, je suis pay\xE9 \xE0 l'heure!"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 0
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: Looks like a poster for some kind of 2D videogame.
+    description: 
+    textType: 0
+    translationText:
+    - "On dirait une affiche pour une sorte de jeu vid\xE9o 2D."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 1
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: 2D? (Shudder)
+    description: 
+    textType: 0
+    translationText:
+    - 2D? (Frisson)
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 33
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: Could you help me lift up the canvas?
+    description: 
+    textType: 0
+    translationText:
+    - "Pourriez-vous m'aider l\xE8ve la toile?"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 34
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: I totally would, but those health and safety guys could make a sudden appearance
+      at any moment!
+    description: 
+    textType: 0
+    translationText:
+    - "Je serais tout \xE0 fait, mais ces gars de sant\xE9 et de s\xE9curit\xE9 pourrait
+      faire une apparition soudaine \xE0 tout moment!"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 8
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: If you're going upstairs, can you make me a sandwich?
+    description: 
+    textType: 0
+    translationText:
+    - "Si vous allez \xE0 l'\xE9tage, pouvez-vous me faire un sandwich?"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 11
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Hi!
+    description: 
+    textType: 0
+    translationText:
+    - Salut!
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 12
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Welcome to the demo!  I'm the Brain, and this-
+    description: 
+    textType: 0
+    translationText:
+    - "Bienvenue \xE0 la d\xE9mo ! Je suis le cerveau , et c'est-"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 40
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: Seeing as the barrel's holding toxic waste, I don't think I should go about
+      prising the lid off.
+    description: 
+    textType: 0
+    translationText:
+    - "Voyant que la tenue de d\xE9chets toxiques du baril, je ne pense pas que je
+      devrais aller sur la faisant levier le couvercle."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 9
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: I have ... the power!
+    description: 
+    textType: 0
+    translationText:
+    - Je dois ... le pouvoir!
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 10
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Heh, your enthusiasm "sword".
+    description: 
+    textType: 0
+    translationText:
+    - "Heh, votre enthousiasme monte en fl\xE8che."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 13
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: This barrel's stopped right in front of the canvas.
+    description: 
+    textType: 0
+    translationText:
+    - "Ce canon est arr\xEAt\xE9 juste en face de la toile."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 14
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: I'm not really sure what else I can do with it, just by itself.
+    description: 
+    textType: 0
+    translationText:
+    - "Je ne suis pas vraiment s\xFBr de ce que je peux faire avec elle, par elle-m\xEAme."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 35
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: Did you see that?  It fell over all by itself!
+    description: 
+    textType: 0
+    translationText:
+    - "Avez-vous vu cela? Il est tomb\xE9 sur lui tout seul!"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 4
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: I wonder where this door leads.
+    description: 
+    textType: 0
+    translationText:
+    - "Je me demande o\xF9 cette porte m\xE8ne."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 5
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Nowhere, it's just set decoration.
+    description: 
+    textType: 0
+    translationText:
+    - "Nulle part, il est tout simplement mis en d\xE9coration."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 6
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: Well, that would explain the poor texturing.
+    description: 
+    textType: 0
+    translationText:
+    - Eh bien, cela expliquerait la mauvaise texturing.
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 15
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: I tell my agent I wanna star in a videogame, and he gets me an engine promo..
+    description: 
+    textType: 0
+    translationText:
+    - "Je dis \xE0 mon agent que je veux \xE9toiles dans un jeu vid\xE9o , et il
+      me fait une promo de moteur .."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 16
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Well, not my job to fix it!
+    description: 
+    textType: 0
+    translationText:
+    - "Eh bien, pas \xE0 moi de r\xE9soudre le probl\xE8me!"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 17
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: Not to worry, sir!
+    description: 
+    textType: 0
+    translationText:
+    - "Ne vous inqui\xE9tez pas, monsieur!"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 18
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: As the engine's mascot, I just LOVE solving puzzles!
+    description: 
+    textType: 0
+    translationText:
+    - "Comme la mascotte du moteur, j'adore r\xE9soudre des \xE9nigmes!"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 19
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Remind me to grab you for my crossword later.
+    description: 
+    textType: 0
+    translationText:
+    - "Rappelez-moi de vous prendre pour mon crois\xE9s plus tard."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 36
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: I found a fake sword!
+    description: 
+    textType: 0
+    translationText:
+    - "J'ai trouv\xE9 une fausse \xE9p\xE9e!"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 37
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Hm.  Props to you.
+    description: 
+    textType: 0
+    translationText:
+    - "Hm. Remerciements \xE0 vous."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 41
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: It's no use - I need some kind of leverage to lift it.
+    description: 
+    textType: 0
+    translationText:
+    - "Il ne sert \xE0 rien - j'ai besoin d'une sorte d'effet de levier pour la soulever."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 25
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Wah! Are you OK?
+    description: 
+    textType: 0
+    translationText:
+    - "Wah! \xCAtes-vous d'accord?"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 26
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: Don't worry!
+    description: 
+    textType: 0
+    translationText:
+    - "Ne vous inqui\xE9tez pas!"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 27
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Woohoo! And THAT'S how I saved the day!
+    description: 
+    textType: 0
+    translationText:
+    - "Woohoo! Et c'est comme \xE7a que j'ai sauv\xE9 la journ\xE9e!"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 20
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: Sir?
+    description: 
+    textType: 0
+    translationText:
+    - Monsieur?
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 21
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Brain
+    text: Hey, little robot!
+    description: 
+    textType: 0
+    translationText:
+    - "H\xE9, petit robot!"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 38
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: Tin Pot
+    text: I thought this set'd have better production values.
+    description: 
+    textType: 0
+    translationText:
+    - Je pensais que ce set'd ont de meilleures valeurs de production.
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 42
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Pinboard
+    description: 
+    textType: 1
+    translationText:
+    - Tableau d'affichage
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 45
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Canvas
+    description: 
+    textType: 1
+    translationText:
+    - Canvas
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 48
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Camera
+    description: 
+    textType: 1
+    translationText:
+    - "Cam\xE9ra"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 50
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Brain
+    description: 
+    textType: 1
+    translationText:
+    - Brain
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 44
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Door
+    description: 
+    textType: 1
+    translationText:
+    - Porte
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 46
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Stairs
+    description: 
+    textType: 1
+    translationText:
+    - Escalier
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 43
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Barrel
+    description: 
+    textType: 1
+    translationText:
+    - Baril
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 47
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Prop sword
+    description: 
+    textType: 1
+    translationText:
+    - "Ep\xE9e prop"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 49
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Barrel
+    description: 
+    textType: 1
+    translationText:
+    - Baril
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 51
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Never mind.
+    description: 
+    textType: 2
+    translationText:
+    - Ce n'est rien.
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 52
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: It wasn't me.
+    description: 
+    textType: 2
+    translationText:
+    - "Ce n'\xE9tait pas moi."
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 55
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: It's not my fault!
+    description: 
+    textType: 2
+    translationText:
+    - Ce n'est pas de ma faute!
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 56
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: ...
+    description: 
+    textType: 2
+    translationText:
+    - "\u2026"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 57
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Adventure Creator
+    description: 
+    textType: 2
+    translationText:
+    - "Aventure Cr\xE9ateur"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 58
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Help
+    description: 
+    textType: 2
+    translationText:
+    - Aider
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 59
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Brain
+    description: 
+    textType: 2
+    translationText:
+    - Brain
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 60
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Sword
+    description: 
+    textType: 2
+    translationText:
+    - "Ep\xE9e"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 61
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Bye
+    description: 
+    textType: 2
+    translationText:
+    - Adieu
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 54
+    scene: 
+    owner: Tin Pot
+    text: I can't cut that.
+    description: 
+    textType: 0
+    translationText:
+    - Je ne peux pas couper cela.
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 62
+    scene: Assets/AdventureCreator/Demo/Scenes/Basement.unity
+    owner: 
+    text: Prop sword
+    description: 
+    textType: 3
+    translationText:
+    - "Ep\xE9e prop"
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 53
+    scene: 
+    owner: 
+    text: Use
+    description: 
+    textType: 6
+    translationText:
+    - Usez
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 104
+    scene: 
+    owner: 
+    text: on
+    description: 
+    textType: 6
+    translationText:
+    - sur
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 105
+    scene: 
+    owner: 
+    text: Give
+    description: 
+    textType: 6
+    translationText:
+    - Give
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 106
+    scene: 
+    owner: 
+    text: to
+    description: 
+    textType: 6
+    translationText:
+    - to
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 107
+    scene: 
+    owner: 
+    text: Walk to
+    description: 
+    textType: 6
+    translationText:
+    - Walk to
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 63
+    scene: 
+    owner: 
+    text: Use
+    description: 
+    textType: 4
+    translationText:
+    - Usez
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 64
+    scene: 
+    owner: 
+    text: Talk to
+    description: 
+    textType: 4
+    translationText:
+    - Parlez
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 65
+    scene: 
+    owner: 
+    text: Look at
+    description: 
+    textType: 4
+    translationText:
+    - Regardez
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 66
+    scene: 
+    owner: ResumeButton
+    text: Resume
+    description: 
+    textType: 5
+    translationText:
+    - Reprendre
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 67
+    scene: 
+    owner: OptionsButton
+    text: Options
+    description: 
+    textType: 5
+    translationText:
+    - Options
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 68
+    scene: 
+    owner: SaveButton
+    text: Save
+    description: 
+    textType: 5
+    translationText:
+    - Sauvegarder
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 69
+    scene: 
+    owner: LoadButton
+    text: Load
+    description: 
+    textType: 5
+    translationText:
+    - Charger
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 85
+    scene: 
+    owner: ProfilesButton
+    text: Profiles
+    description: 
+    textType: 5
+    translationText:
+    - Test
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 70
+    scene: 
+    owner: QuitButton
+    text: Quit
+    description: 
+    textType: 5
+    translationText:
+    - Quitter
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 71
+    scene: 
+    owner: TitleLabel
+    text: Options
+    description: 
+    textType: 5
+    translationText:
+    - Options
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 72
+    scene: 
+    owner: SpeechSlider
+    text: Speech volume
+    description: 
+    textType: 5
+    translationText:
+    - Volume Voix
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 73
+    scene: 
+    owner: MusicSlider
+    text: Music volume
+    description: 
+    textType: 5
+    translationText:
+    - Volume Musique
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 74
+    scene: 
+    owner: SFXSlider
+    text: SFX volume
+    description: 
+    textType: 5
+    translationText:
+    - Volume Sonore
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 75
+    scene: 
+    owner: LanguageCycle
+    text: Language
+    description: 
+    textType: 5
+    translationText:
+    - Langue
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 76
+    scene: 
+    owner: SubtitlesToggle
+    text: Subtitles
+    description: 
+    textType: 5
+    translationText:
+    - Sous-titres
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 77
+    scene: 
+    owner: BackButton
+    text: Back
+    description: 
+    textType: 5
+    translationText:
+    - Retour
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 78
+    scene: 
+    owner: TitleLabel
+    text: Save game
+    description: 
+    textType: 5
+    translationText:
+    - Sauvegarder la partie
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 88
+    scene: 
+    owner: SavesList
+    text: New save
+    description: 
+    textType: 5
+    translationText:
+    - Nouvelle sauvegarde
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 79
+    scene: 
+    owner: BackButton
+    text: Back
+    description: 
+    textType: 5
+    translationText:
+    - Retour
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 80
+    scene: 
+    owner: TitleLabel
+    text: Load game
+    description: 
+    textType: 5
+    translationText:
+    - Charger la partie
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 81
+    scene: 
+    owner: BackButton
+    text: Back
+    description: 
+    textType: 5
+    translationText:
+    - Retour
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 86
+    scene: 
+    owner: TitleLabel
+    text: Profiles
+    description: 
+    textType: 5
+    translationText:
+    - Brain
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 87
+    scene: 
+    owner: CurrentLabel
+    text: 'Current:'
+    description: 
+    textType: 5
+    translationText:
+    - Hi!
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 111
+    scene: 
+    owner: NewButton
+    text: Create new profile
+    description: 
+    textType: 5
+    translationText:
+    - Create new profile
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 112
+    scene: 
+    owner: BackButton
+    text: Back
+    description: 
+    textType: 5
+    translationText:
+    - Back
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 84
+    scene: 
+    owner: MenuButton
+    text: Menu
+    description: 
+    textType: 5
+    translationText:
+    - Menu
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 89
+    scene: 
+    owner: ContainerLabel
+    text: Container
+    description: 
+    textType: 5
+    translationText:
+    - Container
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 90
+    scene: 
+    owner: CloseButton
+    text: Close
+    description: 
+    textType: 5
+    translationText:
+    - Close
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 91
+    scene: 
+    owner: TakeAllButton
+    text: Take all
+    description: 
+    textType: 5
+    translationText:
+    - Take all
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 92
+    scene: 
+    owner: InventoryLabel
+    text: Inventory
+    description: 
+    textType: 5
+    translationText:
+    - Inventory
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 99
+    scene: 
+    owner: CreateButton
+    text: Create
+    description: 
+    textType: 5
+    translationText:
+    - Create
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 100
+    scene: 
+    owner: CloseButton
+    text: Close
+    description: 
+    textType: 5
+    translationText:
+    - Close
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 101
+    scene: 
+    owner: IngredientsLabel
+    text: Ingredients
+    description: 
+    textType: 5
+    translationText:
+    - Ingredients
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 102
+    scene: 
+    owner: InventoryLabel
+    text: Inventory
+    description: 
+    textType: 5
+    translationText:
+    - Inventory
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 103
+    scene: 
+    owner: OutputLabel
+    text: Output
+    description: 
+    textType: 5
+    translationText:
+    - Output
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    onlyPlaySpeechOnce: 0
+    alwaysRetainInSpeechManager: 0
+    ignoreDuringExport: 0
+    customFilename: 
+    orderID: 0
+    orderPrefix: 
+  languages: []
+  languageIsRightToLeft: 
+  languageAudioAssetBundles: []
+  languageLipsyncAssetBundles: []
+  Languages:
+  - name: Original
+    isRightToLeft: 0
+    audioAssetBundle: 
+    lipsyncAssetBundle: 
+    fallbackLanguageIndex: 0
+    isDisabled: 0
+  - name: French
+    isRightToLeft: 0
+    audioAssetBundle: 
+    lipsyncAssetBundle: 
+    fallbackLanguageIndex: 0
+    isDisabled: 0
+  ignoreOriginalText: 0
+  sfxDucking: 0
+  musicDucking: 0
+  lipSyncMode: 0
+  lipSyncOutput: 1
+  phonemes:
+  - 'B/M/P/MBP/ '
+  - AY/AH/IH/EY/ER
+  - G/O/OO/OH/W
+  - SH/R/Z/SF/D/L/F/TN/K/N/NG/H/X/FV
+  - UH/EH/DH/AE/IY
+  lipSyncSpeed: 1
+  translatableTextTypes: -1
+  maxID: -1
+  speechIDRecycling: 0
+  mergeMatchingSpeechIDs: 0
+  useSpeechTags: 0
+  speechTags: []
+  previewMenuName: Subtitles
+  mergeMatchingIDs: 0

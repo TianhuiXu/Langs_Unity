@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RobotEyes
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: rRobot
+    m_Weight: 0
+  - m_Path: rRobot/Base
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Wheel
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+    m_Weight: 1
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+    m_Weight: 1
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+    m_Weight: 1
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+    m_Weight: 1
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+    m_Weight: 0
+  - m_Path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+    m_Weight: 0
+  - m_Path: Robot
+    m_Weight: 0

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9fd2648e8ea494b7aaeaaa1ea71c5d3c
+timeCreated: 1540350659
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - fadeTexture: {fileID: 2800000, guid: 2de7d16b4ac4b402182d4f2ca40e0b2d, type: 3}
+  - attachedCamera: {instanceID: 0}
+  - lastNavCamera: {instanceID: 0}
+  - lastNavCamera2: {instanceID: 0}
+  - splitCamera: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

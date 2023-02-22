@@ -1,0 +1,3526 @@
+fileFormatVersion: 2
+guid: 554d449a9517f40a0850abaa04f70d7a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm.L
+    100002: Arm.R
+    100004: Base
+    100006: Chest
+    100008: Elbow.L
+    100010: Elbow.L_end
+    100012: Elbow.R
+    100014: Elbow.R_end
+    100016: Eye.L
+    100018: Eye.L_end
+    100020: Eye.R
+    100022: Eye.R_end
+    100024: Fingers.L
+    100026: Fingers.L_end
+    100028: Fingers.R
+    100030: Fingers.R_end
+    100032: Forearm.L
+    100034: Forearm.R
+    100036: Hand.L
+    100038: Hand.R
+    100040: Head
+    100042: Hold.L
+    100044: Hold.L_end
+    100046: Hold.R
+    100048: Hold.R_end
+    100050: Jaw
+    100052: Jaw_end
+    100054: Leg
+    100056: Neck
+    100058: Robot
+    100060: //RootNode
+    100062: rRobot
+    100064: Tail
+    100066: Tail_end
+    100068: Thumb.L
+    100070: Thumb.L_end
+    100072: Thumb.R
+    100074: Thumb.R_end
+    100076: Wheel
+    100078: Wheel_end
+    100080: WheelPosition
+    100082: Sword
+    400000: Arm.L
+    400002: Arm.R
+    400004: Base
+    400006: Chest
+    400008: Elbow.L
+    400010: Elbow.L_end
+    400012: Elbow.R
+    400014: Elbow.R_end
+    400016: Eye.L
+    400018: Eye.L_end
+    400020: Eye.R
+    400022: Eye.R_end
+    400024: Fingers.L
+    400026: Fingers.L_end
+    400028: Fingers.R
+    400030: Fingers.R_end
+    400032: Forearm.L
+    400034: Forearm.R
+    400036: Hand.L
+    400038: Hand.R
+    400040: Head
+    400042: Hold.L
+    400044: Hold.L_end
+    400046: Hold.R
+    400048: Hold.R_end
+    400050: Jaw
+    400052: Jaw_end
+    400054: Leg
+    400056: Neck
+    400058: Robot
+    400060: //RootNode
+    400062: rRobot
+    400064: Tail
+    400066: Tail_end
+    400068: Thumb.L
+    400070: Thumb.L_end
+    400072: Thumb.R
+    400074: Thumb.R_end
+    400076: Wheel
+    400078: Wheel_end
+    400080: WheelPosition
+    400082: Sword
+    2300000: Sword
+    3300000: Sword
+    4300000: Robot
+    4300002: Sword
+    7400000: Robot_Appear
+    7400002: Robot_AppearIdle
+    7400004: Robot_ArmPop
+    7400006: Robot_HopAlong
+    7400008: Robot_HopDown
+    7400010: Robot_HopUp
+    7400012: Robot_Idle
+    7400014: Robot_Jaw
+    7400016: Robot_LiftCanvas
+    7400018: Robot_LookDown
+    7400020: rRobot|Robot_LookDownIdle
+    7400022: Robot_LookLeft
+    7400024: Robot_LookRight
+    7400026: Robot_LookUp
+    7400028: rRobot|Robot_LookUpIdle
+    7400030: Robot_PriseBarrel
+    7400032: Robot_PriseCanvas
+    7400034: Robot_Push
+    7400036: Robot_PushCancel
+    7400038: Robot_PushStart
+    7400040: Robot_ReadySword
+    7400042: Robot_Run
+    7400044: Robot_ShakeHead
+    7400046: Robot_ShowSword
+    7400048: Robot_Shudder
+    7400050: Robot_Sleep
+    7400052: Robot_Spin
+    7400054: Robot_Strain
+    7400056: Robot_TakeSword
+    7400058: Robot_Talk
+    7400060: Robot_Walk
+    7400062: Robot_Wave
+    7400064: Robot_Blink
+    7400066: rRobot|Robot_LookForward
+    7400068: rRobot|Robot_LookForward
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Robot
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robot
+    second: {fileID: 2100000, guid: f6df2c90cc63d40ba801bd2240edaa77, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+    - rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+    - rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Robot_Appear
+      takeName: rRobot|Robot_Appear
+      firstFrame: 0
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_AppearIdle
+      takeName: rRobot|Robot_AppearIdle
+      firstFrame: 0
+      lastFrame: 112
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_ArmPop
+      takeName: rRobot|Robot_ArmPop
+      firstFrame: 0
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_HopAlong
+      takeName: rRobot|Robot_HopAlong
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_HopDown
+      takeName: rRobot|Robot_HopDown
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_HopUp
+      takeName: rRobot|Robot_HopUp
+      firstFrame: 0
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_Idle
+      takeName: rRobot|Robot_Idle
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_Jaw
+      takeName: rRobot|Robot_Jaw
+      firstFrame: 0
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_LiftCanvas
+      takeName: rRobot|Robot_LiftCanvas
+      firstFrame: 0
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_LookDown
+      takeName: rRobot|Robot_LookDown
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: rRobot
+        weight: 0
+      - path: rRobot/Base
+        weight: 0
+      - path: rRobot/Base/WheelPosition
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 0
+      - path: Robot
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 1313a97e7fe5b430b87016300835485c, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_LookLeft
+      takeName: rRobot|Robot_LookLeft
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: rRobot
+        weight: 0
+      - path: rRobot/Base
+        weight: 0
+      - path: rRobot/Base/WheelPosition
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 0
+      - path: Robot
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 1313a97e7fe5b430b87016300835485c, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_LookRight
+      takeName: rRobot|Robot_LookRight
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: rRobot
+        weight: 0
+      - path: rRobot/Base
+        weight: 0
+      - path: rRobot/Base/WheelPosition
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 0
+      - path: Robot
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 1313a97e7fe5b430b87016300835485c, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_LookUp
+      takeName: rRobot|Robot_LookUp
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: rRobot
+        weight: 0
+      - path: rRobot/Base
+        weight: 0
+      - path: rRobot/Base/WheelPosition
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 0
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 0
+      - path: Robot
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 1313a97e7fe5b430b87016300835485c, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_PriseBarrel
+      takeName: rRobot|Robot_PriseBarrel
+      firstFrame: 0
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_PriseCanvas
+      takeName: rRobot|Robot_PriseCanvas
+      firstFrame: 0
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_Push
+      takeName: rRobot|Robot_Push
+      firstFrame: 0
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_PushCancel
+      takeName: rRobot|Robot_PushCancel
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_PushStart
+      takeName: rRobot|Robot_PushStart
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_ReadySword
+      takeName: rRobot|Robot_ReadySword
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_Run
+      takeName: rRobot|Robot_Run
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_ShakeHead
+      takeName: rRobot|Robot_ShakeHead
+      firstFrame: 0
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_ShowSword
+      takeName: rRobot|Robot_ShowSword
+      firstFrame: 0
+      lastFrame: 73
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_Shudder
+      takeName: rRobot|Robot_Shudder
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_Sleep
+      takeName: rRobot|Robot_Sleep
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_Spin
+      takeName: rRobot|Robot_Spin
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_Strain
+      takeName: rRobot|Robot_Strain
+      firstFrame: 0
+      lastFrame: 163
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_TakeSword
+      takeName: rRobot|Robot_TakeSword
+      firstFrame: 0
+      lastFrame: 97
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_Talk
+      takeName: rRobot|Robot_Talk
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_Walk
+      takeName: rRobot|Robot_Walk
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Robot_Wave
+      takeName: rRobot|Robot_Wave
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: rRobot
+        weight: 1
+      - path: rRobot/Base
+        weight: 1
+      - path: rRobot/Base/WheelPosition
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Fingers.L/Fingers.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Hold.L/Hold.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.L/Forearm.L/Hand.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Fingers.R/Fingers.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Hold.R/Hold.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Arm.R/Forearm.R/Hand.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Leg/Chest/Neck/Head/Tail/Tail_end
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel
+        weight: 1
+      - path: rRobot/Base/WheelPosition/Wheel/Wheel_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Base
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
