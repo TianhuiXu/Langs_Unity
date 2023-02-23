@@ -5,8 +5,36 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/ChooseScenario.unity
+    guid: 2d8a1372bce614e08bb5c9067a6436a1
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 305993334b14f4d078ebabea91288857
+  - enabled: 1
+    path: Assets/Scenes/MarketExplore.unity
+    guid: d2d0adb03ab8b41a29543abb10ef1f0e
+  - enabled: 1
+    path: Assets/Scenes/PhraseIntro.unity
+    guid: a2c05350c3ff349c8813afeb1b1c6586
+  - enabled: 1
+    path: Assets/Scenes/AudioRepeat.unity
+    guid: 3eb42e1f4b62a4cff8b180795d74e5d0
+  - enabled: 1
+    path: Assets/Scenes/AudioRepeat2.unity
+    guid: 541b1c0bf29c442b4925fe91a765cf38
+  - enabled: 1
+    path: Assets/Scenes/AudioRepeat3.unity
+    guid: 23d342ad135ed4ca6b5a6be9909440bf
+  - enabled: 1
+    path: Assets/Scenes/Moretocome.unity
+    guid: 4f709de3bfcdc4b7f9a2521b6b4b53b3
   - enabled: 1
     path: Assets/Scenes/Market.unity
     guid: f69f3989369364c89bacaae7ec2bab90
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 3be1512a58419415fa189af4179ee65c, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 6d622e3462e784db19b993fca091d792, type: 2}

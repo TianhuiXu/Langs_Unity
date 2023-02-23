@@ -9,7 +9,7 @@
         &lt;Id&gt;Dama&lt;/Id&gt;
         &lt;Type&gt;Characters&lt;/Type&gt;
         &lt;Appearances&gt;
-          &lt;string&gt;vendor_happy&lt;/string&gt;
+          &lt;string&gt;vendor.happy&lt;/string&gt;
         &lt;/Appearances&gt;
         &lt;Description /&gt;
       &lt;/Actor&gt;
@@ -43,6 +43,11 @@
       &lt;/Actor&gt;
       &lt;Actor&gt;
         &lt;Id&gt;ChatReply&lt;/Id&gt;
+        &lt;Type&gt;ChoiceHandlers&lt;/Type&gt;
+        &lt;Appearances /&gt;
+      &lt;/Actor&gt;
+      &lt;Actor&gt;
+        &lt;Id&gt;ButtonListChinese&lt;/Id&gt;
         &lt;Type&gt;ChoiceHandlers&lt;/Type&gt;
         &lt;Appearances /&gt;
       &lt;/Actor&gt;
@@ -93,6 +98,11 @@
       &lt;/Actor&gt;
       &lt;Actor&gt;
         &lt;Id&gt;TMProBubble&lt;/Id&gt;
+        &lt;Type&gt;TextPrinters&lt;/Type&gt;
+        &lt;Appearances /&gt;
+      &lt;/Actor&gt;
+      &lt;Actor&gt;
+        &lt;Id&gt;DialogueChinese&lt;/Id&gt;
         &lt;Type&gt;TextPrinters&lt;/Type&gt;
         &lt;Appearances /&gt;
       &lt;/Actor&gt;
@@ -344,8 +354,12 @@
         &lt;Type&gt;Audio&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;vendor_happy&lt;/Path&gt;
+        &lt;Path&gt;vendor.happy&lt;/Path&gt;
         &lt;Type&gt;Characters/Dama&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;DialogueChinese&lt;/Path&gt;
+        &lt;Type&gt;TextPrinters&lt;/Type&gt;
       &lt;/Resource&gt;
     &lt;/Resources&gt;
     &lt;Constants&gt;

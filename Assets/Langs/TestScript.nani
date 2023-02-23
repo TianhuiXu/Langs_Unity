@@ -1,13 +1,14 @@
 # Start
 @back bg_market
 
+@voice User/不用了
 @voice Vendor/来来来，刚到的柚子，小姑娘，要不要来个
 
 # A1
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 
-vendor.happy: 来来来，刚到的柚子，小姑娘，要不要来个? [br][br]lái lái lái, gāng dào de yòu zi, xiǎo gū niang, yào bú yào lái gè? [br][br]Hey, come! Newly arrived pomelo, little girl, do you want one?
+Dama.vendor: 来来来，刚到的柚子，小姑娘，要不要来个? [br][br]lái lái lái, gāng dào de yòu zi, xiǎo gū niang, yào bú yào lái gè? [br][br]Hey, come! Newly arrived pomelo, little girl, do you want one?
 
 @showUI ChoiceAudioUIA1
 @choice "一斤多少钱啊？yì jīn duō shǎo qián a? How much is one \"斤\"? " goto:.TA1
@@ -64,7 +65,7 @@ Cultural tips: Some vendors might weigh the fruits more to take advantage of you
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 @voice Vendor/一斤柚子两块五
-vendor.happy: 一斤柚子两块五 [br][br]dà mā: yì jīn yòu zi liǎng kuài wǔ [br][br]One "斤" of pomelo is 2 yuan 50 cents
+Dama.vendor.happy: 一斤柚子两块五 [br][br]yì jīn yòu zi liǎng kuài wǔ [br][br]One "斤" of pomelo is 2 yuan 50 cents
 
 @goto .TA2
 
@@ -73,14 +74,14 @@ vendor.happy: 一斤柚子两块五 [br][br]dà mā: yì jīn yòu zi liǎng ku�
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 @voice Vendor/要几个
-vendor.happy: 要几个？[br][br]dà mā: yào jǐ gè? [br][br]How many do you want?
+Dama.vendor.happy: 要几个？[br][br]yào jǐ gè? [br][br]How many do you want?
 
 # A6
 @hideUI ChoiceAudioUI2
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 @voice Vendor/我这里柚子水分足，好吃，比别的地方的好
-vendor.happy: 我这里柚子水分足，好吃，比别的地方的好 [br][br] dà mā: wǒ zhè lǐ yòu zi shuǐ fèn zú, hǎo chī, bǐ bié de dì fāng de hǎo [br][br] Our pomelo is juicy, tasty, better than other places'
+Dama.vendor.happy: 我这里柚子水分足，好吃，比别的地方的好 [br][br]wǒ zhè lǐ yòu zi shuǐ fèn zú, hǎo chī, bǐ bié de dì fāng de hǎo [br][br]Our pomelo is juicy, tasty, better than other places'
 
 @goto .TA3
 
@@ -89,7 +90,7 @@ vendor.happy: 我这里柚子水分足，好吃，比别的地方的好 [br][br]
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 @voice Vendor/我这里柚子水分足，好吃，比别的地方的好
-vendor.happy: 差不多两公斤，十块钱 [br][br]dà mā: chà bù duō liǎng gōng jīn, shí kuài qián [br][br]Around two kilograms, 10 yuan
+Dama.vendor.happy: 差不多两公斤，十块钱 [br][br]chà bù duō liǎng gōng jīn, shí kuài qián [br][br]Around two kilograms, 10 yuan
 
 @goto .TA4
 
@@ -98,7 +99,7 @@ vendor.happy: 差不多两公斤，十块钱 [br][br]dà mā: chà bù duō liǎ
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 @voice Vendor/你再买一个吧，算你两块钱一斤
-vendor.happy: 你再买一个吧，算你两块钱一斤[br][br] dà mā: nǐ zài mǎi yī gè ba, suàn nǐ liǎng kuài qián yì jīn [br][br]I'll count as 2 yuan per "斤" if you buy one more
+Dama.vendor.happy: 你再买一个吧，算你两块钱一斤[br][br]nǐ zài mǎi yī gè ba, suàn nǐ liǎng kuài qián yì jīn [br][br]I'll count as 2 yuan per "斤" if you buy one more
 
 @showUI ChoiceAudioUIA8
 @choice "我买两个吃不掉呀，一个就够了 wǒ mǎi liǎng gè chī bú diào ya, yī gè jiù gòu le I can't finish two, one is enough" goto:.A9
@@ -114,7 +115,7 @@ vendor.happy: 你再买一个吧，算你两块钱一斤[br][br] dà mā: nǐ z�
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 @voice Vendor/行吧，一共两公斤，八块
-vendor.happy: 行吧，一共两公斤，八块[br][br]dà mā: xíng ba, yí gòng liǎng gōng jīn, bā kuài [br][br]Ok, two kilograms in total, 8 yuan
+Dama.vendor.happy: 行吧，一共两公斤，八块[br][br]xíng ba, yí gòng liǎng gōng jīn, bā kuài [br][br]Ok, two kilograms in total, 8 yuan
 
 @goto .A11
 
@@ -126,7 +127,7 @@ vendor.happy: 行吧，一共两公斤，八块[br][br]dà mā: xíng ba, yí g�
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 @voice Vendor/四公斤，十六块钱
-vendor.happy: 四公斤，十六块钱 [br][br]dà mā: sì gōng jīn, shí liù kuài qián [br][br]4 kilograms, 16 yuan
+Dama.vendor.happy: 四公斤，十六块钱 [br][br]sì gōng jīn, shí liù kuài qián [br][br]4 kilograms, 16 yuan
 
 @goto .A11
 

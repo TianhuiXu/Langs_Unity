@@ -197,8 +197,18 @@ MonoBehaviour:
       guid: 2659c9097b6f6421cb2b24f0cfc00a48
   - Id: Characters/0df529d2-5742-40c6-8c16-fc62a938f8c2
     Resources:
-    - name: vendor_happy
+    - name: vendor.happy
       pathPrefix: Characters/Dama
       guid: 9e599b21aa1bf43a3b7feb09004b50a1
   - Id: Characters/c3161195-7061-4d4e-988c-923a3d9ee6ce
     Resources: []
+  - Id: TextPrinters/2813c91b-d5da-4c37-bbc9-4471a07ed8f6
+    Resources:
+    - name: DialogueChinese
+      pathPrefix: TextPrinters
+      guid: 05826149f89cc4d91a2559b813a6f808
+  - Id: ChoiceHandlers/0fdf7eb0-6ad7-49a8-aa3e-e54c2fb9014b
+    Resources:
+    - name: ButtonListChinese
+      pathPrefix: ChoiceHandlers
+      guid: 

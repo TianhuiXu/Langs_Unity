@@ -21,5 +21,9 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   OverrideObjectsLayer: 1
   ObjectsLayer: 5
-  FontOptions: []
-  DefaultFont: 
+  FontOptions:
+  - FontName: NotoSans
+    Font: {fileID: 12800000, guid: 636f7d5e338214fb08789ae155dda4e2, type: 3}
+    TMPFont: {fileID: 0}
+    ApplyOnLocale: zh
+  DefaultFont: NotoSans
