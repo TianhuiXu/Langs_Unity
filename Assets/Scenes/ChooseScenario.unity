@@ -123,6 +123,83 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &260603853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dcc16d550ae64c819b1af073e51b013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 160
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  resultActionTrue: 0
+  skipActionTrue: -99
+  skipActionTrueActual: {fileID: 0}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 0}
+  resultActionFail: 1
+  skipActionFail: -1
+  skipActionFailActual: {fileID: 0}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 0}
+  actionListSource: 0
+  actionListAsset: {fileID: 0}
+  actionList: {fileID: 0}
+  actionListConstantID: 0
+  parameterID: -1
+  compareParameterID: -1
+  checkOwn: 1
+  intValue: 0
+  floatValue: 0
+  intCondition: 0
+  stringValue: 
+  compareVariableID: 0
+  compareVariables: {fileID: 0}
+  vector3Value: {x: 0, y: 0, z: 0}
+  compareObject: {fileID: 0}
+  compareObjectConstantID: 0
+  compareUnityObject: {fileID: 0}
+  boolValue: 1
+  boolCondition: 0
+  vectorCondition: 0
+  parameterLabel: 
+  gameObjectCompareType: 0
 --- !u!1 &358913997
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,7 +553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 0}
+  - {fileID: 260603853}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -586,9 +663,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ffb48ecf9de44666b3779fe84044e36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chooseSceneBy: 0
+  chooseSceneBy: 1
   previousScene: 0
-  previousSceneName: 
+  previousSceneName: Market
   fadeInOnStart: 1
   fadeSpeed: 0.5
   cameraOnStart: {fileID: 0}

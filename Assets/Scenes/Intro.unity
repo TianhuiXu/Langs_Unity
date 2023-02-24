@@ -1467,9 +1467,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ffb48ecf9de44666b3779fe84044e36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chooseSceneBy: 1
+  chooseSceneBy: 0
   previousScene: 0
-  previousSceneName: ChooseScenario
+  previousSceneName: 0
   fadeInOnStart: 1
   fadeSpeed: 0.5
   cameraOnStart: {fileID: 0}

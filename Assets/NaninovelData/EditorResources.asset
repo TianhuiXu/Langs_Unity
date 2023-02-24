@@ -178,6 +178,9 @@ MonoBehaviour:
     - name: ChoiceAudioUIA8
       pathPrefix: UI
       guid: a8f47c0ad4e3a47f9b13eab6de4b825e
+    - name: Lanlan
+      pathPrefix: UI
+      guid: 
   - Id: Scripts
     Resources:
     - name: TestScript
@@ -212,3 +215,8 @@ MonoBehaviour:
     - name: ButtonListChinese
       pathPrefix: ChoiceHandlers
       guid: 
+  - Id: Inventory
+    Resources:
+    - name: Pomelo
+      pathPrefix: Inventory
+      guid: 5c334244735b143699630f3da3b6eaeb
