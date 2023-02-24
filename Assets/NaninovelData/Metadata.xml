@@ -558,6 +558,10 @@
         &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;ChoiceAudioUIA11&lt;/Path&gt;
+        &lt;Type&gt;UI&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;TestScript&lt;/Path&gt;
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -577,6 +581,10 @@
         &lt;Path&gt;DialogueChinese&lt;/Path&gt;
         &lt;Type&gt;TextPrinters&lt;/Type&gt;
       &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;Pomelo&lt;/Path&gt;
+        &lt;Type&gt;Inventory&lt;/Type&gt;
+      &lt;/Resource&gt;
     &lt;/Resources&gt;
     &lt;Constants&gt;
       &lt;Constant&gt;
@@ -590,12 +598,15 @@
           &lt;string&gt;TA4&lt;/string&gt;
           &lt;string&gt;A2&lt;/string&gt;
           &lt;string&gt;A3&lt;/string&gt;
+          &lt;string&gt;A4&lt;/string&gt;
           &lt;string&gt;A6&lt;/string&gt;
           &lt;string&gt;A7&lt;/string&gt;
           &lt;string&gt;A8&lt;/string&gt;
           &lt;string&gt;A9&lt;/string&gt;
           &lt;string&gt;A10&lt;/string&gt;
           &lt;string&gt;A11&lt;/string&gt;
+          &lt;string&gt;H1&lt;/string&gt;
+          &lt;string&gt;H2&lt;/string&gt;
         &lt;/Values&gt;
       &lt;/Constant&gt;
     &lt;/Constants&gt;

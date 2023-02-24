@@ -42,8 +42,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Task1.unity
     guid: 530dbd7998921465f964a7fd1ad680cf
   - enabled: 1
+    path: Assets/Scenes/Task2.unity
+    guid: e8229bdaff1a84ac6b271ebbdfb3d0c3
+  - enabled: 1
     path: Assets/Scenes/Task3.unity
     guid: 94d4853a53f964e2dba918f138b5005d
+  - enabled: 1
+    path: Assets/Scenes/Task4.unity
+    guid: 52b00411ec0394cf89efce86e3d1c9fc
   - enabled: 1
     path: Assets/Scenes/Market.unity
     guid: f69f3989369364c89bacaae7ec2bab90
