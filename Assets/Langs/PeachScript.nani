@@ -1,0 +1,70 @@
+# start
+@back bg_market
+
+# B1
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/小姑娘，要买水蜜桃吗？
+Dama.vendor.happy: 小姑娘，要买水蜜桃吗？[br][br]dà mā: xiǎo gū niang, yào mǎi shuǐ mì táo ma? [br][br]Little girl, do you want honey peach?
+
+@showUI ChoiceAudioUIB1
+@choice "水蜜桃多少钱一斤？shuǐ mì táo duō shǎo qián yì jīn? How much is one "斤" of honey peach?" goto:.B2
+@choice "要五个 yào wǔ gè Want five" goto:.B3
+
+@hidePrinter 
+
+; End the script
+@stop
+
+# B2
+@hideUI ChoiceAudioUIB1
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/四块五一斤
+Dama.vendor.happy: 四块五一斤 [br][br]dà mā: sì kuài wǔ yì jīn [br][br]4 yuan 50 cents per "斤"
+
+@showUI ChoiceAudioUIB2
+@choice "要五个 yào wǔ gè Want five" goto:.B3
+
+@hidePrinter 
+
+; End the script
+@stop
+
+# B3
+@hideUI ChoiceAudioUIB2
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/大妈：我给你挑哈
+Dama.vendor.happy: 大妈：我给你挑哈 [br][br]dà mā: wǒ géi nǐ tiāo ha [br][br]I'll pick for you~
+
+@goto .TB1
+
+# B4
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/大妈：我给你挑哈
+Dama.vendor.happy: 差一点到两斤，再给你拿一个到两斤呗 [br][br]dà mā: chà yì diǎn dào liǎng jīn, zài géi nǐ ná yí gè dào liǎng jīn bei [br][br]Almost two "斤", I'll give you one more and count it as two "斤"~
+
+@goto .TB2
+
+
+# TB1
+@printer Wide
+Cultural tips: Some vendors are friendly like this 大妈, some are not.  To take advantage of foreigners, some vendors might put in one or two bad ones when you are not noticing. When they choose the fruits for you, always watch out for the quality. Or you can choose the fruits yourself.
+@goto .B4
+
+@stop
+
+# TB2
+@printer Wide
+Cultural tips: Cultural tips: Sometimes vendors would propose to add in one or two more fruits to make it into an integer weight so that they don't need to give you changes in "毛"(10 cents). If you don't want more, you can always reject. But if you don't mind, you can accept and it's also easier for you to pay.
+
+@showUI ChoiceAudioUITB2
+@choice "好 hǎo Sure" goto:.B2
+@choice "不用了，就五个就行 bú yòng le, jiù wǔ gè jiù xíng No need, five is enough" goto:.B3
+
+@hidePrinter 
+
+; End the script
+@stop

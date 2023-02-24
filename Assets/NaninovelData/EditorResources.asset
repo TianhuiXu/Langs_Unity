@@ -181,11 +181,29 @@ MonoBehaviour:
     - name: Lanlan
       pathPrefix: UI
       guid: 
+    - name: ChoiceAudioUIA11
+      pathPrefix: UI
+      guid: dbe0b74873a504730bafda87d09bdd57
+    - name: ChoiceAudioUIA3
+      pathPrefix: UI
+      guid: 44b681e124b8c42ee82238b94dc122e3
+    - name: ChoiceAudioUIA4
+      pathPrefix: UI
+      guid: e31a7e4a8b8af457daf7f96827ac90d2
+    - name: ChoiceAudioUIB1
+      pathPrefix: UI
+      guid: 2680edbac267a41829102f57a94b8def
+    - name: ChoiceAudioUIB2
+      pathPrefix: UI
+      guid: bec168f3ac4384165be20a619284db9c
   - Id: Scripts
     Resources:
-    - name: TestScript
+    - name: PomeloScript
       pathPrefix: Scripts
-      guid: 959a2ad1fceee4ebcb579573694ceb01
+      guid: 6f377bfaba12e4c07ad2a70d0b72f461
+    - name: PeachScript
+      pathPrefix: Scripts
+      guid: 3e917d70d343d437b902c606330ea826
   - Id: Backgrounds/c46dee9e-b6b0-4ccd-a473-4c1322cab84b
     Resources:
     - name: bg_market

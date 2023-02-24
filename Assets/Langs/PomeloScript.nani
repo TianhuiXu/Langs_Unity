@@ -1,14 +1,13 @@
 # Start
 @back bg_market
 
-@voice User/不用了
 @voice Vendor/来来来，刚到的柚子，小姑娘，要不要来个
 
 # A1
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 
-Dama.vendor: 来来来，刚到的柚子，小姑娘，要不要来个? [br][br]lái lái lái, gāng dào de yòu zi, xiǎo gū niang, yào bú yào lái gè? [br][br]Hey, come! Newly arrived pomelo, little girl, do you want one?
+Dama.vendor.happy: 来来来，刚到的柚子，小姑娘，要不要来个? [br][br]lái lái lái, gāng dào de yòu zi, xiǎo gū niang, yào bú yào lái gè? [br][br]Hey, come! Newly arrived pomelo, little girl, do you want one?
 
 @showUI ChoiceAudioUIA1
 @choice "一斤多少钱啊？yì jīn duō shǎo qián a? How much is one \"斤\"? " goto:.TA1
@@ -59,9 +58,15 @@ Cultural tips: Some vendors might weigh the fruits more to take advantage of you
 
 @stop
 
+# TA5
+@printer Wide
+Cultural tips: although there is price competition in the same market, vendors are usually friends, especially with the ones nearby, some may even be relatives. So they will help each other in sales. 
+
+@goto .H3
 
 
 # A2
+@hideUI ChoiceAudioUIA3
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 @voice Vendor/一斤柚子两块五
@@ -75,6 +80,43 @@ Dama.vendor.happy: 一斤柚子两块五 [br][br]yì jīn yòu zi liǎng kuài w
 @show Bubble wait:false
 @voice Vendor/要几个
 Dama.vendor.happy: 要几个？[br][br]yào jǐ gè? [br][br]How many do you want?
+
+@showUI ChoiceAudioUIA3
+@choice "要一个 yào yí gè want one" goto:.A2
+@choice "要两斤 yào liǎng jīn want two "斤"" goto:.H2
+@choice "不要柚子 bú yào yòu zi don't want pomelo" goto:.A4
+
+@hidePrinter 
+
+; End the script
+@stop
+
+# A4
+@hideUI ChoiceAudioUIA3
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/其他水果要不要
+Dama.vendor.happy: 其它水果要不要？ [br][br]dà mā: qí tā shuí guǒ yào bú yào? [br][br]Do you want other fruits?
+
+@showUI ChoiceAudioUIA4
+@choice "要水蜜桃 yào shuǐ mì táo want honey peach" goto:.PeachScript/B1
+@choice "要甘蔗 yào gān zhe want sugar cane " goto:.A5
+@choice "不要 bú yào No" goto:.H1
+
+@hidePrinter 
+
+; End the script
+@stop
+
+# A5
+@hideUI choiceAudioUIA4
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/我们这儿没甘蔗，隔壁有，你去隔壁买
+Dama.vendor.happy: 我们这儿没甘蔗，隔壁有，你去隔壁买[br][br]dà mā: wǒ men zhè er méi gān zhe, gé bì yǒu, nǐ qù gé bì mǎi[br][br]We don't have sugar cane here, our neighbor stall has, you go there to buy
+
+@goto .TA5
+
 
 # A6
 @hideUI ChoiceAudioUI2
@@ -121,7 +163,6 @@ Dama.vendor.happy: 行吧，一共两公斤，八块[br][br]xíng ba, yí gòng 
 
 @stop
 
-
 # A10
 @hideUI ChoiceAudioUIA8
 @printer Bubble.Right pos:53,80 visible:false time:0
@@ -132,6 +173,40 @@ Dama.vendor.happy: 四公斤，十六块钱 [br][br]sì gōng jīn, shí liù ku
 @goto .A11
 
 # A11
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/还要什么其它的吗
+Dama.vendor.happy: 还要什么其它的吗？[br][br]hái yào shén me qí tā de ma? [br][br]Want something else?
+
+@showUI ChoiceAudioUIA11
+@choice "不用了 bú yòng le No" goto:.H1
+@choice "水蜜桃有吗？shuǐ mì táo yǒu ma? Do you have honey peach?" goto:.PeachScript/B1
+@choice "还要一个甘蔗 hái yào yī gè gān zhe Want a sugar cane" goto:.A5
+
+@hidePrinter 
+
+; End the script
+@stop
+
+# H1
+@hideUI ChoiceAudioUIA11
+@showPrinter
+@printer Wide
+Hint: You can walk away and explore other stalls.
+@goto .start
+
+# H2
+@hideUI ChoiceAudioUIA3
+@showPrinter
+@printer Wide
+Hint: We don't use "斤" in counting 柚子，we use "个"
+@goto .A3
+
+# H3
+@showPrinter
+@printer Wide
+Hint: You can walk away and explore nearby stalls.
+@goto .start
 
 
 
