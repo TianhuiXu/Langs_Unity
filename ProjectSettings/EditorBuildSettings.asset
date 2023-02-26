@@ -54,9 +54,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Market.unity
     guid: f69f3989369364c89bacaae7ec2bab90
   - enabled: 1
-    path: Assets/Scenes/Nani.unity
-    guid: f6aeb5748b3164e88b1f428babd719fb
-  - enabled: 1
     path: Assets/Scenes/ChooseScenario.unity
     guid: 2d8a1372bce614e08bb5c9067a6436a1
   m_configObjects:

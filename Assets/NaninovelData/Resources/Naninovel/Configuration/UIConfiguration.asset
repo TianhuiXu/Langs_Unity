@@ -24,6 +24,6 @@ MonoBehaviour:
   FontOptions:
   - FontName: NotoSans
     Font: {fileID: 12800000, guid: 636f7d5e338214fb08789ae155dda4e2, type: 3}
-    TMPFont: {fileID: 0}
+    TMPFont: {fileID: 11400000, guid: 5a5da223be1edb84887b02e14312351e, type: 2}
     ApplyOnLocale: zh
   DefaultFont: NotoSans
