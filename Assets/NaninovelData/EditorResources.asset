@@ -196,6 +196,12 @@ MonoBehaviour:
     - name: ChoiceAudioUIB2
       pathPrefix: UI
       guid: bec168f3ac4384165be20a619284db9c
+    - name: InventoryUI
+      pathPrefix: UI
+      guid: bae1d844b2f5c4512b4b206c9a9a6620
+    - name: ChoiceAudioUITB2
+      pathPrefix: UI
+      guid: d91e1daf17b0a49c2b9e2eb37a28c500
   - Id: Scripts
     Resources:
     - name: PomeloScript
@@ -238,3 +244,14 @@ MonoBehaviour:
     - name: Pomelo
       pathPrefix: Inventory
       guid: 5c334244735b143699630f3da3b6eaeb
+    - name: Peach
+      pathPrefix: Inventory
+      guid: 7a016c9f7eefc4ff49680cedb5db0900
+    - name: Ganzhe
+      pathPrefix: Inventory
+      guid: 7a119c18236df4084a20ca5316c701c9
+  - Id: TextPrinters/7d73a6f6-1b9c-4f21-8f4a-f356ad3898a3
+    Resources:
+    - name: CustomPrinter
+      pathPrefix: TextPrinters
+      guid: 0f44080348c7947fdad718e976ac10ca

@@ -56,6 +56,11 @@ Cultural tips: When vendors say how good their fruits are, don't always trust th
 @printer Wide
 Cultural tips: Some vendors might weigh the fruits more to take advantage of you. It is not uncommon that vendors intentionally adjust the weighting machines to always let it weigh more. It is hard to avoid this so you should always try to bargain to lower the costs.
 
+@addItem Pomelo amount:1
+@showUI InventoryUI wait:false
+
+@goto .A11
+
 @stop
 
 # TA5
@@ -99,7 +104,7 @@ Dama.vendor.happy: 要几个？[br][br]yào jǐ gè? [br][br]How many do you wan
 Dama.vendor.happy: 其它水果要不要？ [br][br]dà mā: qí tā shuí guǒ yào bú yào? [br][br]Do you want other fruits?
 
 @showUI ChoiceAudioUIA4
-@choice "要水蜜桃 yào shuǐ mì táo want honey peach" goto:.PeachScript/B1
+@choice "要水蜜桃 yào shuǐ mì táo want honey peach" goto:PeachScript.B1
 @choice "要甘蔗 yào gān zhe want sugar cane " goto:.A5
 @choice "不要 bú yào No" goto:.H1
 
@@ -159,6 +164,8 @@ Dama.vendor.happy: 你再买一个吧，算你两块钱一斤[br][br]nǐ zài m�
 @voice Vendor/行吧，一共两公斤，八块
 Dama.vendor.happy: 行吧，一共两公斤，八块[br][br]xíng ba, yí gòng liǎng gōng jīn, bā kuài [br][br]Ok, two kilograms in total, 8 yuan
 
+@addItem Pomelo amount:1
+
 @goto .A11
 
 @stop
@@ -170,6 +177,8 @@ Dama.vendor.happy: 行吧，一共两公斤，八块[br][br]xíng ba, yí gòng 
 @voice Vendor/四公斤，十六块钱
 Dama.vendor.happy: 四公斤，十六块钱 [br][br]sì gōng jīn, shí liù kuài qián [br][br]4 kilograms, 16 yuan
 
+@addItem Pomelo amount:2
+
 @goto .A11
 
 # A11
@@ -180,7 +189,7 @@ Dama.vendor.happy: 还要什么其它的吗？[br][br]hái yào shén me qí tā
 
 @showUI ChoiceAudioUIA11
 @choice "不用了 bú yòng le No" goto:.H1
-@choice "水蜜桃有吗？shuǐ mì táo yǒu ma? Do you have honey peach?" goto:.PeachScript/B1
+@choice "水蜜桃有吗？shuǐ mì táo yǒu ma? Do you have honey peach?" goto:PeachScript.B1
 @choice "还要一个甘蔗 hái yào yī gè gān zhe Want a sugar cane" goto:.A5
 
 @hidePrinter 
@@ -189,11 +198,11 @@ Dama.vendor.happy: 还要什么其它的吗？[br][br]hái yào shén me qí tā
 @stop
 
 # H1
-@hideUI ChoiceAudioUIA11
+@hideUI ChoiceAudioUIA11,ChoiceAudioUITB2
 @showPrinter
 @printer Wide
 Hint: You can walk away and explore other stalls.
-@goto .start
+@goto .stop
 
 # H2
 @hideUI ChoiceAudioUIA3
@@ -206,11 +215,13 @@ Hint: We don't use "斤" in counting 柚子，we use "个"
 @showPrinter
 @printer Wide
 Hint: You can walk away and explore nearby stalls.
-@goto .start
+@goto .stop
 
+# stop
+@turnOnAC swapCameras:true action:OnNaninovelExitH1
 
 
 ; use goto command to go to where the label "start" is
-@goto .start
+@goto .Start
 
 @stop
