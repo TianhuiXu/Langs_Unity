@@ -250,3 +250,8 @@ MonoBehaviour:
     - name: Ganzhe
       pathPrefix: Inventory
       guid: 7a119c18236df4084a20ca5316c701c9
+  - Id: TextPrinters/7d73a6f6-1b9c-4f21-8f4a-f356ad3898a3
+    Resources:
+    - name: CustomPrinter
+      pathPrefix: TextPrinters
+      guid: 0f44080348c7947fdad718e976ac10ca

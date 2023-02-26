@@ -33,7 +33,7 @@ Dama.vendor.happy: 四块五一斤 [br][br]dà mā: sì kuài wǔ yì jīn [br][
 @stop
 
 # B3
-@hideUI ChoiceAudioUIB2
+@hideUI ChoiceAudioUIB2,ChoiceAudioUIB1
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 @voice Vendor/大妈：我给你挑哈
@@ -59,11 +59,11 @@ Cultural tips: Some vendors are friendly like this 大妈, some are not.  To tak
 
 # TB2
 @printer Wide
-Cultural tips: Cultural tips: Sometimes vendors would propose to add in one or two more fruits to make it into an integer weight so that they don't need to give you changes in "毛"(10 cents). If you don't want more, you can always reject. But if you don't mind, you can accept and it's also easier for you to pay.
+Cultural tips: Sometimes vendors would propose to add in one or two more fruits to make it into an integer weight so that they don't need to give you changes in "毛"(10 cents). If you don't want more, you can always reject. But if you don't mind, you can accept and it's also easier for you to pay.
 
 @showUI ChoiceAudioUITB2
-@choice "好 hǎo Sure" do:"@addItem Peach amount:6, @showUI InventoryUI, goto:PomeloScript.H1"
-@choice "不用了，就五个就行 bú yòng le, jiù wǔ gè jiù xíng No need, five is enough" do:"@addItem Peach amount:5, @showUI InventoryUI, goto:PomeloScript.H1"
+@choice "好 hǎo Sure" do:"@addItem Peach amount:6, @showUI InventoryUI, @hideUI ChoiceAudioUITB2" goto:PomeloScript.H1
+@choice "不用了，就五个就行 bú yòng le, jiù wǔ gè jiù xíng No need, five is enough" do:"@addItem Peach amount:5, @showUI InventoryUI, @hideUI ChoiceAudioUITB2" goto:PomeloScript.H1
 
 @hidePrinter 
 

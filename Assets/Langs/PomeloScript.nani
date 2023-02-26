@@ -198,11 +198,11 @@ Dama.vendor.happy: 还要什么其它的吗？[br][br]hái yào shén me qí tā
 @stop
 
 # H1
-@hideUI ChoiceAudioUIA11
+@hideUI ChoiceAudioUIA11,ChoiceAudioUITB2
 @showPrinter
 @printer Wide
 Hint: You can walk away and explore other stalls.
-@goto .start
+@goto .stop
 
 # H2
 @hideUI ChoiceAudioUIA3
@@ -215,11 +215,13 @@ Hint: We don't use "斤" in counting 柚子，we use "个"
 @showPrinter
 @printer Wide
 Hint: You can walk away and explore nearby stalls.
-@goto .start
+@goto .stop
 
+# stop
+@turnOnAC swapCameras:true action:OnNaninovelExitH1
 
 
 ; use goto command to go to where the label "start" is
-@goto .start
+@goto .Start
 
 @stop
