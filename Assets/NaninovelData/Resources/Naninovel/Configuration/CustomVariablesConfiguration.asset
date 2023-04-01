@@ -12,4 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050d909da8f293c4cac3351071715b4d, type: 3}
   m_Name: CustomVariablesConfiguration
   m_EditorClassIdentifier: 
-  PredefinedVariables: []
+  PredefinedVariables:
+  - name: g_money
+    value: 30
+  - name: g_pomelo
+    value: 0
+  - name: g_ganzhe
+    value: 0
+  - name: g_success
+    value: 0
+  - name: price
+    value: 0
+  - name: pomelo_amt
+    value: 0
+  - name: peach_amt
+    value: 0
