@@ -1,5 +1,9 @@
 # Start
 @back bg_market
+@set g_money=30
+@set g_pomelo=0 if:!HasPlayed()
+@set g_peach=0 if:!HasPlayed()
+@set g_success=0 if:!HasPlayed()
 
 @voice Vendor/来来来，刚到的柚子，小姑娘，要不要来个
 
@@ -56,9 +60,6 @@ Cultural tips: When vendors say how good their fruits are, don't always trust th
 @printer Wide
 Cultural tips: Some vendors might weigh the fruits more to take advantage of you. It is not uncommon that vendors intentionally adjust the weighting machines to always let it weigh more. It is hard to avoid this so you should always try to bargain to lower the costs.
 
-@addItem Pomelo amount:1
-@showUI InventoryUI wait:false
-
 @goto .A11
 
 @stop
@@ -114,7 +115,7 @@ Dama.vendor.happy: 其它水果要不要？ [br][br]dà mā: qí tā shuí guǒ 
 @stop
 
 # A5
-@hideUI choiceAudioUIA4
+@hideUI ChoiceAudioUIA11
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
 @voice Vendor/我们这儿没甘蔗，隔壁有，你去隔壁买
@@ -136,8 +137,18 @@ Dama.vendor.happy: 我这里柚子水分足，好吃，比别的地方的好 [br
 @hideUI ChoiceAudioUI2
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
-@voice Vendor/我这里柚子水分足，好吃，比别的地方的好
+@voice Vendor/差不多两公斤，十块钱
 Dama.vendor.happy: 差不多两公斤，十块钱 [br][br]chà bù duō liǎng gōng jīn, shí kuài qián [br][br]Around two kilograms, 10 yuan
+
+@if g_money>=10
+    @addItem Pomelo amount:1
+    @set g_pomelo++
+    @set g_money-=10
+    @showUI InventoryUI wait:false
+    You successfully purchased 1 pomelo! You currently have {g_money} Yuan left.
+@else
+    You currently have {g_money} Yuan. You don't have enough money :(
+@endIf
 
 @goto .TA4
 
@@ -164,7 +175,15 @@ Dama.vendor.happy: 你再买一个吧，算你两块钱一斤[br][br]nǐ zài m�
 @voice Vendor/行吧，一共两公斤，八块
 Dama.vendor.happy: 行吧，一共两公斤，八块[br][br]xíng ba, yí gòng liǎng gōng jīn, bā kuài [br][br]Ok, two kilograms in total, 8 yuan
 
-@addItem Pomelo amount:1
+@if g_money>=8
+    @addItem Pomelo amount:1
+    @set g_pomelo++
+    @set g_money-=8
+    @showUI InventoryUI wait:false
+    You successfully purchased 1 pomelo! You currently have {g_money} Yuan left.
+@else
+    You currently have {g_money} Yuan. You don't have enough money :(
+@endIf
 
 @goto .A11
 
@@ -177,14 +196,22 @@ Dama.vendor.happy: 行吧，一共两公斤，八块[br][br]xíng ba, yí gòng 
 @voice Vendor/四公斤，十六块钱
 Dama.vendor.happy: 四公斤，十六块钱 [br][br]sì gōng jīn, shí liù kuài qián [br][br]4 kilograms, 16 yuan
 
-@addItem Pomelo amount:2
+@if g_money>=16
+    @addItem Pomelo amount:2
+    @set g_pomelo+=2
+    @set g_money-=16
+    @showUI InventoryUI wait:false
+    You successfully purchased 2 pomelo! You currently have {g_money} Yuan left.
+@else
+    You currently have {g_money} Yuan. You don't have enough money :(
+@endIf
 
 @goto .A11
 
 # A11
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
-@voice Vendor/还要什么其它的吗
+@voice Vendor/还要什么其他的吗
 Dama.vendor.happy: 还要什么其它的吗？[br][br]hái yào shén me qí tā de ma? [br][br]Want something else?
 
 @showUI ChoiceAudioUIA11

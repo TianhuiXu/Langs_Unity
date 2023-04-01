@@ -1,11 +1,17 @@
 # start
 @back bg_market
+@set g_money=30
+@set g_pomelo=0 if:!HasPlayed()
+@set g_peach=0 if:!HasPlayed()
+@set g_success=0 if:!HasPlayed()
+@set price=0
+@set peach_amt=0
 
 # B1
 @hideUI ChoiceAudioUIA4,ChoiceAudioUIA11
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
-@voice Vendor/小姑娘，要买水蜜桃吗？
+@voice Vendor/小姑娘，要买水蜜桃吗
 Dama.vendor.happy: 小姑娘，要买水蜜桃吗？[br][br]dà mā: xiǎo gū niang, yào mǎi shuǐ mì táo ma? [br][br]Little girl, do you want honey peach?
 
 @showUI ChoiceAudioUIB1
@@ -36,7 +42,7 @@ Dama.vendor.happy: 四块五一斤 [br][br]dà mā: sì kuài wǔ yì jīn [br][
 @hideUI ChoiceAudioUIB2,ChoiceAudioUIB1
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
-@voice Vendor/大妈：我给你挑哈
+@voice Vendor/我给你挑哈
 Dama.vendor.happy: 大妈：我给你挑哈 [br][br]dà mā: wǒ géi nǐ tiāo ha [br][br]I'll pick for you~
 
 @goto .TB1
@@ -44,7 +50,7 @@ Dama.vendor.happy: 大妈：我给你挑哈 [br][br]dà mā: wǒ géi nǐ tiāo 
 # B4
 @printer Bubble.Right pos:53,80 visible:false time:0
 @show Bubble wait:false
-@voice Vendor/大妈：差一点到两斤，再给你拿一个到两斤呗
+@voice Vendor/差一点到两斤，再给你拿一个到两斤呗
 Dama.vendor.happy: 差一点到两斤，再给你拿一个到两斤呗 [br][br]dà mā: chà yì diǎn dào liǎng jīn, zài géi nǐ ná yí gè dào liǎng jīn bei [br][br]Almost two "斤", I'll give you one more and count it as two "斤"~
 
 @goto .TB2
@@ -62,10 +68,25 @@ Cultural tips: Some vendors are friendly like this 大妈, some are not.  To tak
 Cultural tips: Sometimes vendors would propose to add in one or two more fruits to make it into an integer weight so that they don't need to give you changes in "毛"(10 cents). If you don't want more, you can always reject. But if you don't mind, you can accept and it's also easier for you to pay.
 
 @showUI ChoiceAudioUITB2
-@choice "好 hǎo Sure" do:"@addItem Peach amount:6, @showUI InventoryUI, @hideUI ChoiceAudioUITB2" goto:PomeloScript.H1
-@choice "不用了，就五个就行 bú yòng le, jiù wǔ gè jiù xíng No need, five is enough" do:"@addItem Peach amount:5, @showUI InventoryUI, @hideUI ChoiceAudioUITB2" goto:PomeloScript.H1
+@choice "好 hǎo Sure" do:"@set peach_amt=6;price=9, @goto PeachScript.C1"
+@choice "不用了，就五个就行 bú yòng le, jiù wǔ gè jiù xíng No need, five is enough" do:"@set peach_amt=5;price=7.5, @goto PeachScript.C1"
 
 @hidePrinter 
+
+@stop
+
+# C1
+@hideUI ChoiceAudioUITB2
+@if g_money>={price}
+    @addItem Peach amount:{peach_amt}
+    @set g_peach+={peach_amt};g_money-={price}
+    @showUI InventoryUI wait:false
+    You successfully purchased {peach_amt} peaches! You currently have {g_money} Yuan left.
+@else
+    You currently have {g_money} Yuan. You don't have enough money :(
+@endIf
+
+@goto PomeloScript.H1
 
 ; End the script
 @stop
