@@ -290,7 +290,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 3930873274360815957}
   ScriptName: PomeloScript
   Label: 
-  TurnOffAC: 0
+  TurnOffAC: 1
   SwapCameras: 1
 --- !u!1 &168319688
 GameObject:
@@ -544,8 +544,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 15.799805
-    y: 490.9995
+    x: 14
+    y: 682
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -951,8 +951,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 16
-    y: 338
+    x: 14
+    y: 520
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -963,7 +963,7 @@ MonoBehaviour:
   obToAffect: {fileID: 585220883}
   affectChildren: 0
   visState: 0
---- !u!114 &865925708
+--- !u!114 &901144271
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -972,7 +972,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
@@ -997,31 +997,17 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 378
+    y: 682
     width: 300
-    height: 112
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3930873274360815957}
-  gameObject: {fileID: 2357981164424402877}
   parameterID: -1
   constantID: 0
-  replaceGameObject: {fileID: 0}
-  replaceParameterID: -1
-  replaceConstantID: 0
-  relativeGameObject: {fileID: 0}
-  relativeGameObjectID: 0
-  relativeGameObjectParameterID: -1
-  relativeVectorParameterID: -1
-  relativeVector: {x: 0, y: 0, z: 0}
-  vectorVarParameterID: -1
-  vectorVarID: 0
-  variableLocation: 0
-  invAction: 1
-  positionRelativeTo: 0
-  variables: {fileID: 0}
-  variablesConstantID: 0
-  spawnedObjectParameterID: -1
+  hotspot: {fileID: 2357981164418392669}
+  affectChildren: 0
+  changeType: 1
 --- !u!1 &908510129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,7 +1039,7 @@ Transform:
   m_Father: {fileID: 673720491}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &925489716
+--- !u!114 &929486035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1062,7 +1048,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
@@ -1087,31 +1073,17 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 682
+    y: 378
     width: 300
-    height: 112
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3930873274360815957}
-  gameObject: {fileID: 3344736114059569598}
   parameterID: -1
   constantID: 0
-  replaceGameObject: {fileID: 0}
-  replaceParameterID: -1
-  replaceConstantID: 0
-  relativeGameObject: {fileID: 0}
-  relativeGameObjectID: 0
-  relativeGameObjectParameterID: -1
-  relativeVectorParameterID: -1
-  relativeVector: {x: 0, y: 0, z: 0}
-  vectorVarParameterID: -1
-  vectorVarID: 0
-  variableLocation: 0
-  invAction: 1
-  positionRelativeTo: 0
-  variables: {fileID: 0}
-  variablesConstantID: 0
-  spawnedObjectParameterID: -1
+  hotspot: {fileID: 3344736114049850462}
+  affectChildren: 0
+  changeType: 1
 --- !u!1 &960060174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,9 +1138,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
+  - resultAction: 0
+    skipAction: 1
+    skipActionActual: {fileID: 1902314939}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1176,8 +1148,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 19
-    y: 633.2002
+    x: 14
+    y: 14
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1627,7 +1599,7 @@ GameObject:
   - component: {fileID: 1673504328}
   - component: {fileID: 1673504327}
   m_Layer: 0
-  m_Name: bg market
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1900,7 +1872,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 14
+    y: 196
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1944,8 +1916,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 16
-    y: 176
+    x: 14
+    y: 358
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2772,9 +2744,9 @@ MonoBehaviour:
   actions:
   - {fileID: 1303769515}
   - {fileID: 124495212}
-  - {fileID: 865925708}
+  - {fileID: 929486035}
   - {fileID: 458505784}
-  - {fileID: 925489716}
+  - {fileID: 901144271}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -2885,11 +2857,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 1072544337}
   - {fileID: 1902314939}
   - {fileID: 1907175425}
   - {fileID: 754135335}
   - {fileID: 452604797}
-  - {fileID: 1072544337}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
