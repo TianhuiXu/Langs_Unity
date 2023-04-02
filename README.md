@@ -6,7 +6,7 @@ Langs is a language-learning game app, users interact with NPCs and complete tas
 
 If you are an English speaker who are learning Mandarin and would like to practice listening & speaking through games in real-life scenarios. This app is for you!
 
-Iteration 3 of the prototype is already deployed! Try it out [here](https://simmer.io/@tianhuihui/langs-v3/)!
+Iteration 3 of the prototype is already deployed! Try it out [here](https://simmer.io/@tianhuihui/langs/)!
  
 ### Langs' Team
 - [Sichen Huang](https://www.linkedin.com/in/sichen-lanny-huang/): Business & UX/UI & Product development
