@@ -1,0 +1,728 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d8a631b468ced42a5044c8442a4f42, type: 3}
+  m_Name: ProjectResources
+  m_EditorClassIdentifier: 
+  resourcePaths:
+  - Path: "Naninovel/Voice/User/\u6765\u4E2A"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Backgrounds/MainBackground/bg_market
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ScriptEditor
+    Type: UnityEngine.UIElements.StyleSheet, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u6C34\u871C\u6843\u6709\u5417"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u6709\u70B9\u8D35\uFF0C\u4FBF\u5B9C\u70B9\u5457"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain3
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player29
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/Wide
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/TMProDialogue
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/CGGalleryUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/RevealableText
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ScriptGotoIcon
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/TMProBubble
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Scripts
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/Bubble
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u8981\u6C34\u871C\u6843"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/Fullscreen
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player14
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/InventoryUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u4E00\u65A4\u67DA\u5B50\u4E24\u5757\u4E94"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Brain2D_SpritesUnityComplex
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/BlurFilter
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player36
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u4E0D\u7528\u4E86"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ChoiceHandlers/ButtonArea
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearchSmallDownOff
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ScriptGraph
+    Type: UnityEngine.UIElements.StyleSheet, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/TMProChat
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain5
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfFieldComposition
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u6211\u4E70\u4E24\u4E2A\u5403\u4E0D\u6389\u5440\uFF0C\u4E00\u4E2A\u5C31\u591F\u4E86"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/TMProWide
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u8FD8\u8981\u4EC0\u4E48\u5176\u4ED6\u7684\u5417"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player54
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u6211\u4EEC\u8FD9\u513F\u6CA1\u7518\u8517\uFF0C\u9694\u58C1\u6709\uFF0C\u4F60\u53BB\u9694\u58C1\u4E70"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/InventoryConfiguration
+    Type: NaninovelInventory.InventoryConfiguration, Elringus.NaninovelInventory.Runtime,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain11
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u6765\u4E00\u4E2A"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/VariableInputUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ScriptNavigator
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/DepthOfField
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/ResourceProviderConfiguration
+    Type: Naninovel.ResourceProviderConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Spawn/ShakeBackground
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Backgrounds
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/DigitalGlitch
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player30
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u56DB\u5757\u4E94\u4E00\u65A4"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain12
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/AudioConfiguration
+    Type: Naninovel.AudioConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Configuration/CustomVariablesConfiguration
+    Type: Naninovel.CustomVariablesConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u5C0F\u59D1\u5A18\uFF0C\u8981\u4E70\u6C34\u871C\u6843\u5417"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Characters/Dama/vendor.happy
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player18
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain7
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u8FD8\u8981\u4E00\u4E2A\u7518\u8517"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player31
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Characters/Dama
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/SaveLoadUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ChoiceAudioUIA1
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Textures/Black
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ClickThroughPanel
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ChoiceAudioUITB2
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u4E0D\u8981"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ConfirmationUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Voice/Vendor
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u4E00\u65A4\u67DA\u5B50\u591A\u5C11\u94B1\u554A"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain25
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player20
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Voice/Background
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/PauseUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfFieldDiskBlur
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u4E0D\u7528\u4E86\uFF0C\u5C31\u4E94\u4E2A\u5C31\u884C"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/RevealableTMProTextExtra
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u4E00\u65A4\u591A\u5C11\u94B1\u554A"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthMask
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u8981"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Voice
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player13
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/TransitionalUI
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player1
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player2
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/BackgroundsConfiguration
+    Type: Naninovel.BackgroundsConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: EmptySlot
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Characters
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfField
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/MoviesConfiguration
+    Type: Naninovel.MoviesConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Speech/Player6
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain19
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain27
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Textures/Clouds
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ChoiceHandlers
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/Rain
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/TitleUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u8981\u4E00\u4E2A"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/SpawnConfiguration
+    Type: Naninovel.SpawnConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Speech/Player17
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/DialogueChinese
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player4
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/ScriptsConfiguration
+    Type: Naninovel.ScriptsConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Speech/Player38
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/SceneTransitionUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/CustomPrinter
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/SettingsUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/NaninovelCG
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain34
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearchSmallDownOff@2x
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ChoiceAudioUIB1
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player0
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain28
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfFieldDiskKernel
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfFieldCommon
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/RevealableTMProSprite
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/BacklogUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u4E0D\u8981\u67DA\u5B50"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/TipsUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ContinueInputUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ChoiceAudioUIB2
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: DragCollider
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/DefaultMixer
+    Type: UnityEditor.Audio.AudioMixerController, UnityEditor.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/EngineVersion
+    Type: Naninovel.EngineVersion, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u6211\u8FD9\u91CC\u67DA\u5B50\u6C34\u5206\u8DB3\uFF0C\u597D\u5403\uFF0C\u6BD4\u522B\u7684\u5730\u65B9\u7684\u597D"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/Transparent
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u522B\u7684\u5730\u65B9\u53EA\u8981\u4E24\u5757\u94B1\u4E00\u65A4"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player26
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/TextPrintersConfiguration
+    Type: Naninovel.TextPrintersConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: PersistentEngine
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Textures/UnknownActor
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player9
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ChoiceAudioUITA3
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/TMProFullscreen
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ChoiceHandlers/ButtonList
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/ShakePrinter
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player42
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player22
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u8981\u4E94\u4E2A"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain39
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: References
+    Type: AC.References, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/UI/MovieUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player40
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u884C\u5427\uFF0C\u4E00\u5171\u4E24\u516C\u65A4\uFF0C\u516B\u5757"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/Searcher
+    Type: UnityEngine.UIElements.StyleSheet, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Configuration/ChoiceHandlersConfiguration
+    Type: Naninovel.ChoiceHandlersConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Inventory/Peach
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Inventory/Ganzhe
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/CharactersConfiguration
+    Type: Naninovel.CharactersConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Scripts/PeachScript
+    Type: Naninovel.Script, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/ShakeCamera
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Voice/User
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player23
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/InputConfiguration
+    Type: Naninovel.InputConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Shaders/TransitionalTexture
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain37
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain10
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/SunShafts
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/UIConfiguration
+    Type: Naninovel.UIConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Configuration/CameraConfiguration
+    Type: Naninovel.CameraConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Speech/Brain16
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain21
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ChoiceAudioUI2
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player41
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearcherItem
+    Type: UnityEngine.UIElements.VisualTreeAsset, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/UI/RollbackUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u5176\u4ED6\u6C34\u679C\u8981\u4E0D\u8981"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ChoiceAudioUIA11
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u597D"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ScriptEditorDark
+    Type: UnityEngine.UIElements.StyleSheet, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u6211\u7ED9\u4F60\u6311\u54C8"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: BackgroundImageUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ToastUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u56DB\u516C\u65A4\uFF0C\u5341\u516D\u5757\u94B1"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/UnlockablesConfiguration
+    Type: Naninovel.UnlockablesConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Shaders/RevealableTMProTextRTL
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/ScriptPlayerConfiguration
+    Type: Naninovel.ScriptPlayerConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/Inventory
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/EngineInitializationUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Inventory/Pomelo
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Scripts/PomeloScript
+    Type: Naninovel.Script, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain15
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Configuration/EngineConfiguration
+    Type: Naninovel.EngineConfiguration, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Speech/Brain8
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearchSmallDownOn
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u8981\u51E0\u4E2A"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u6765\u6765\u6765\uFF0C\u521A\u5230\u7684\u67DA\u5B50\uFF0C\u5C0F\u59D1\u5A18\uFF0C\u8981\u4E0D\u8981\u6765\u4E2A"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DigitalGlitch
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player33
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/EditMetaIcon
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/RevealableTMProText
+    Type: UnityEngine.Shader, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain24
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u884C\uFF0C\u90A3\u62FF\u4E24\u4E2A\u5427"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ChoiceHandlers/ChatReply
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/Blur
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/ScriptAssetIcon
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearchSmallDownOn@2x
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/Dialogue
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/Snow
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u6C34\u871C\u6843\u591A\u5C11\u94B1\u4E00\u65A4"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/TextPrinters/Chat
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ChoiceAudioUIA3
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/TransitionEffects
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u4F60\u518D\u4E70\u4E00\u4E2A\u5427\uFF0C\u7B97\u4F60\u4E24\u5757\u94B1\u4E00\u65A4"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u8981\u7518\u8517"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Player35
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/LoadingUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Backgrounds/MainBackground
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/Animate
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u5DEE\u4E0D\u591A\u4E24\u516C\u65A4\uFF0C\u5341\u5757\u94B1"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ExternalScriptsUI
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ChoiceAudioUIA4
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: SceneManagerSkin
+    Type: UnityEngine.GUISkin, UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Shaders/DepthOfFieldPrefilter
+    Type: UnityEditor.ShaderInclude, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Speech/Brain32
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Brain2D
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Audio/\u5C0F\u59D1\u5A18\uFF0C\u8981\u4E70\u6C34\u871C\u6843\u5417"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u90A3\u62FF\u4E00\u4E2A\u5427"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: RuntimeActionList
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Searcher/SearcherWindow
+    Type: UnityEngine.UIElements.VisualTreeAsset, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Path: Naninovel/NaninovelLogo
+    Type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Tin Pot
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/ChoiceAudioUIA8
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/Vendor/\u5DEE\u4E00\u70B9\u5230\u4E24\u65A4\uFF0C\u518D\u7ED9\u4F60\u62FF\u4E00\u4E2A\u5230\u4E24\u65A4\u5457"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Spawn/ShakeCharacter
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u597D\u5440"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Textures
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/Audio
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: "Naninovel/Voice/User/\u8981\u4E24\u65A4"
+    Type: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel
+    Type: UnityEditor.DefaultAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - Path: Naninovel/UI/Inventory
+    Type: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null

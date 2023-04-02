@@ -1,0 +1,254 @@
+# Start
+@back bg_market
+@set g_money=30
+@set g_pomelo=0 if:!HasPlayed()
+@set g_peach=0 if:!HasPlayed()
+@set g_success=0 if:!HasPlayed()
+
+@voice Vendor/来来来，刚到的柚子，小姑娘，要不要来个
+
+# A1
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+
+Dama.vendor.happy: 来来来，刚到的柚子，小姑娘，要不要来个? [br][br]lái lái lái, gāng dào de yòu zi, xiǎo gū niang, yào bú yào lái gè? [br][br]Hey, come! Newly arrived pomelo, little girl, do you want one?
+
+@showUI ChoiceAudioUIA1
+@choice "一斤多少钱啊？yì jīn duō shǎo qián a? How much is one \"斤\"? " goto:.TA1
+@choice "柚子多少钱啊？yòu zi duō shǎo qián ā? How much is the pomelo?" goto:.TA1
+@choice "一斤柚子多少钱啊？yì jīn yòu zi duō shǎo qián ā? How much is one \"斤\" of pomelo?" goto:.TA1
+@choice "好呀 hǎo ya Sure" goto:.A3
+@choice "来个 lái gè I'll get one" goto:.A3
+@choice "要 yào I want" goto:.A3
+
+@hidePrinter 
+
+; End the script
+@stop
+
+# TA1
+@hideUI ChoiceAudioUIA1
+@printer Wide
+Cultural tips: In China, we usually use "斤" as the unit of measurement in wet markets, which is 500 grams. One kilogram(一公斤) is 两斤(two "斤").
+@goto .A2
+
+# TA2
+@printer Wide
+Cultural tips: In daily conversations, we usually use "块" rather than "元" as the currency unit. E.g. we would say "两块五" rather than “两元五毛”.
+
+@showUI ChoiceAudioUI2
+@choice "有点贵，便宜点呗 yǒu diǎn guì, pián yi diǎn bei A little bit expensive, cheaper please" goto:.A6
+@choice "来一个 lái yī gè get one" goto:.A7
+
+@hidePrinter
+
+@stop
+
+# TA3
+@printer Wide
+Cultural tips: When vendors say how good their fruits are, don't always trust them. Even though they cut a fruit and show you (which they often do to convince buyers), do not always trust them without questioning. 
+
+@showUI ChoiceAudioUITA3
+@choice "别的地方只要两块钱一斤 bié de dì fāng zhǐ yào liǎng kuài qián yì jīn Other places' is only 2 yuan per "斤""  goto:.A8
+@choice "那拿一个吧 nà ná yī gè ba Then get one" goto:.A7
+
+@hidePrinter
+
+@stop
+
+# TA4
+@printer Wide
+Cultural tips: Some vendors might weigh the fruits more to take advantage of you. It is not uncommon that vendors intentionally adjust the weighting machines to always let it weigh more. It is hard to avoid this so you should always try to bargain to lower the costs.
+
+@goto .A11
+
+@stop
+
+# TA5
+@printer Wide
+Cultural tips: although there is price competition in the same market, vendors are usually friends, especially with the ones nearby, some may even be relatives. So they will help each other in sales. 
+
+@goto .H3
+
+
+# A2
+@hideUI ChoiceAudioUIA3
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/一斤柚子两块五
+Dama.vendor.happy: 一斤柚子两块五 [br][br]yì jīn yòu zi liǎng kuài wǔ [br][br]One "斤" of pomelo is 2 yuan 50 cents
+
+@goto .TA2
+
+# A3
+@hideUI ChoiceAudioUIA1
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/要几个
+Dama.vendor.happy: 要几个？[br][br]yào jǐ gè? [br][br]How many do you want?
+
+@showUI ChoiceAudioUIA3
+@choice "要一个 yào yí gè want one" goto:.A2
+@choice "要两斤 yào liǎng jīn want two "斤"" goto:.H2
+@choice "不要柚子 bú yào yòu zi don't want pomelo" goto:.A4
+
+@hidePrinter 
+
+; End the script
+@stop
+
+# A4
+@hideUI ChoiceAudioUIA3
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/其他水果要不要
+Dama.vendor.happy: 其它水果要不要？ [br][br]dà mā: qí tā shuí guǒ yào bú yào? [br][br]Do you want other fruits?
+
+@showUI ChoiceAudioUIA4
+@choice "要水蜜桃 yào shuǐ mì táo want honey peach" goto:PeachScript.B1
+@choice "要甘蔗 yào gān zhe want sugar cane " goto:.A5
+@choice "不要 bú yào No" goto:.H1
+
+@hidePrinter 
+
+; End the script
+@stop
+
+# A5
+@hideUI ChoiceAudioUIA11
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/我们这儿没甘蔗，隔壁有，你去隔壁买
+Dama.vendor.happy: 我们这儿没甘蔗，隔壁有，你去隔壁买[br][br]dà mā: wǒ men zhè er méi gān zhe, gé bì yǒu, nǐ qù gé bì mǎi[br][br]We don't have sugar cane here, our neighbor stall has, you go there to buy
+
+@goto .TA5
+
+
+# A6
+@hideUI ChoiceAudioUI2
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/我这里柚子水分足，好吃，比别的地方的好
+Dama.vendor.happy: 我这里柚子水分足，好吃，比别的地方的好 [br][br]wǒ zhè lǐ yòu zi shuǐ fèn zú, hǎo chī, bǐ bié de dì fāng de hǎo [br][br]Our pomelo is juicy, tasty, better than other places'
+
+@goto .TA3
+
+# A7
+@hideUI ChoiceAudioUI2
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/差不多两公斤，十块钱
+Dama.vendor.happy: 差不多两公斤，十块钱 [br][br]chà bù duō liǎng gōng jīn, shí kuài qián [br][br]Around two kilograms, 10 yuan
+
+@if g_money>=10
+    @addItem Pomelo amount:1
+    @set g_pomelo++
+    @set g_money-=10
+    @showUI InventoryUI wait:false
+    You successfully purchased 1 pomelo! You currently have {g_money} Yuan left.
+@else
+    You currently have {g_money} Yuan. You don't have enough money :(
+@endIf
+
+@goto .TA4
+
+# A8
+@hideUI ChoiceAudioUITA3
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/你再买一个吧，算你两块钱一斤
+Dama.vendor.happy: 你再买一个吧，算你两块钱一斤[br][br]nǐ zài mǎi yī gè ba, suàn nǐ liǎng kuài qián yì jīn [br][br]I'll count as 2 yuan per "斤" if you buy one more
+
+@showUI ChoiceAudioUIA8
+@choice "我买两个吃不掉呀，一个就够了 wǒ mǎi liǎng gè chī bú diào ya, yī gè jiù gòu le I can't finish two, one is enough" goto:.A9
+@choice "行，那拿两个吧 xíng, nà ná liǎng gè ba ok, then get two" goto:.A10
+
+@hidePrinter 
+
+; End the script
+@stop
+
+# A9
+@hideUI ChoiceAudioUIA8
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/行吧，一共两公斤，八块
+Dama.vendor.happy: 行吧，一共两公斤，八块[br][br]xíng ba, yí gòng liǎng gōng jīn, bā kuài [br][br]Ok, two kilograms in total, 8 yuan
+
+@if g_money>=8
+    @addItem Pomelo amount:1
+    @set g_pomelo++
+    @set g_money-=8
+    @showUI InventoryUI wait:false
+    You successfully purchased 1 pomelo! You currently have {g_money} Yuan left.
+@else
+    You currently have {g_money} Yuan. You don't have enough money :(
+@endIf
+
+@goto .A11
+
+@stop
+
+# A10
+@hideUI ChoiceAudioUIA8
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/四公斤，十六块钱
+Dama.vendor.happy: 四公斤，十六块钱 [br][br]sì gōng jīn, shí liù kuài qián [br][br]4 kilograms, 16 yuan
+
+@if g_money>=16
+    @addItem Pomelo amount:2
+    @set g_pomelo+=2
+    @set g_money-=16
+    @showUI InventoryUI wait:false
+    You successfully purchased 2 pomelo! You currently have {g_money} Yuan left.
+@else
+    You currently have {g_money} Yuan. You don't have enough money :(
+@endIf
+
+@goto .A11
+
+# A11
+@printer Bubble.Right pos:53,80 visible:false time:0
+@show Bubble wait:false
+@voice Vendor/还要什么其他的吗
+Dama.vendor.happy: 还要什么其它的吗？[br][br]hái yào shén me qí tā de ma? [br][br]Want something else?
+
+@showUI ChoiceAudioUIA11
+@choice "不用了 bú yòng le No" goto:.H1
+@choice "水蜜桃有吗？shuǐ mì táo yǒu ma? Do you have honey peach?" goto:PeachScript.B1
+@choice "还要一个甘蔗 hái yào yī gè gān zhe Want a sugar cane" goto:.A5
+
+@hidePrinter 
+
+; End the script
+@stop
+
+# H1
+@hideUI ChoiceAudioUIA11,ChoiceAudioUITB2
+@showPrinter
+@printer Wide
+Hint: You can walk away and explore other stalls.
+@goto .stop
+
+# H2
+@hideUI ChoiceAudioUIA3
+@showPrinter
+@printer Wide
+Hint: We don't use "斤" in counting 柚子，we use "个"
+@goto .A3
+
+# H3
+@showPrinter
+@printer Wide
+Hint: You can walk away and explore nearby stalls.
+@goto .stop
+
+# stop
+@turnOnAC swapCameras:true action:OnNaninovelExitH1
+
+
+; use goto command to go to where the label "start" is
+@goto .Start
+
+@stop
